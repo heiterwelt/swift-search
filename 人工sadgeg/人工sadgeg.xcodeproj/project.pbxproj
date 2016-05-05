@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01B7AE91CDAF72E00D7B022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B7AE81CDAF72E00D7B022 /* AppDelegate.swift */; };
+		C01B7AEB1CDAF72E00D7B022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B7AEA1CDAF72E00D7B022 /* ViewController.swift */; };
+		C01B7AEE1CDAF72E00D7B022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01B7AEC1CDAF72E00D7B022 /* Main.storyboard */; };
+		C01B7AF11CDAF72E00D7B022 /* __sadgeg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C01B7AEF1CDAF72E00D7B022 /* __sadgeg.xcdatamodeld */; };
+		C01B7AF31CDAF72E00D7B022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01B7AF21CDAF72E00D7B022 /* Assets.xcassets */; };
+		C01B7AF61CDAF72E00D7B022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01B7AF41CDAF72E00D7B022 /* LaunchScreen.storyboard */; };
+		C01B7B011CDAF72F00D7B022 /* __sadgegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B7B001CDAF72F00D7B022 /* __sadgegTests.swift */; };
+		C01B7B0C1CDAF72F00D7B022 /* __sadgegUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B7B0B1CDAF72F00D7B022 /* __sadgegUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01B7AFD1CDAF72F00D7B022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01B7ADD1CDAF72E00D7B022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01B7AE41CDAF72E00D7B022;
+			remoteInfo = "人工sadgeg";
+		};
+		C01B7B081CDAF72F00D7B022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01B7ADD1CDAF72E00D7B022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01B7AE41CDAF72E00D7B022;
+			remoteInfo = "人工sadgeg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C01B7AE51CDAF72E00D7B022 /* 人工sadgeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "人工sadgeg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01B7AE81CDAF72E00D7B022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C01B7AEA1CDAF72E00D7B022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C01B7AED1CDAF72E00D7B022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01B7AF01CDAF72E00D7B022 /* __sadgeg.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __sadgeg.xcdatamodel; sourceTree = "<group>"; };
+		C01B7AF21CDAF72E00D7B022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01B7AF51CDAF72E00D7B022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01B7AF71CDAF72E00D7B022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01B7AFC1CDAF72F00D7B022 /* 人工sadgegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "人工sadgegTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01B7B001CDAF72F00D7B022 /* __sadgegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __sadgegTests.swift; sourceTree = "<group>"; };
+		C01B7B021CDAF72F00D7B022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01B7B071CDAF72F00D7B022 /* 人工sadgegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "人工sadgegUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01B7B0B1CDAF72F00D7B022 /* __sadgegUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __sadgegUITests.swift; sourceTree = "<group>"; };
+		C01B7B0D1CDAF72F00D7B022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01B7AE21CDAF72E00D7B022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7AF91CDAF72F00D7B022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7B041CDAF72F00D7B022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01B7ADC1CDAF72E00D7B022 = {
+			isa = PBXGroup;
+			children = (
+				C01B7AE71CDAF72E00D7B022 /* 人工sadgeg */,
+				C01B7AFF1CDAF72F00D7B022 /* 人工sadgegTests */,
+				C01B7B0A1CDAF72F00D7B022 /* 人工sadgegUITests */,
+				C01B7AE61CDAF72E00D7B022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01B7AE61CDAF72E00D7B022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01B7AE51CDAF72E00D7B022 /* 人工sadgeg.app */,
+				C01B7AFC1CDAF72F00D7B022 /* 人工sadgegTests.xctest */,
+				C01B7B071CDAF72F00D7B022 /* 人工sadgegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01B7AE71CDAF72E00D7B022 /* 人工sadgeg */ = {
+			isa = PBXGroup;
+			children = (
+				C01B7AE81CDAF72E00D7B022 /* AppDelegate.swift */,
+				C01B7AEA1CDAF72E00D7B022 /* ViewController.swift */,
+				C01B7AEC1CDAF72E00D7B022 /* Main.storyboard */,
+				C01B7AF21CDAF72E00D7B022 /* Assets.xcassets */,
+				C01B7AF41CDAF72E00D7B022 /* LaunchScreen.storyboard */,
+				C01B7AF71CDAF72E00D7B022 /* Info.plist */,
+				C01B7AEF1CDAF72E00D7B022 /* __sadgeg.xcdatamodeld */,
+			);
+			path = "人工sadgeg";
+			sourceTree = "<group>";
+		};
+		C01B7AFF1CDAF72F00D7B022 /* 人工sadgegTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01B7B001CDAF72F00D7B022 /* __sadgegTests.swift */,
+				C01B7B021CDAF72F00D7B022 /* Info.plist */,
+			);
+			path = "人工sadgegTests";
+			sourceTree = "<group>";
+		};
+		C01B7B0A1CDAF72F00D7B022 /* 人工sadgegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C01B7B0B1CDAF72F00D7B022 /* __sadgegUITests.swift */,
+				C01B7B0D1CDAF72F00D7B022 /* Info.plist */,
+			);
+			path = "人工sadgegUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01B7AE41CDAF72E00D7B022 /* 人工sadgeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01B7B101CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgeg" */;
+			buildPhases = (
+				C01B7AE11CDAF72E00D7B022 /* Sources */,
+				C01B7AE21CDAF72E00D7B022 /* Frameworks */,
+				C01B7AE31CDAF72E00D7B022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "人工sadgeg";
+			productName = "人工sadgeg";
+			productReference = C01B7AE51CDAF72E00D7B022 /* 人工sadgeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01B7AFB1CDAF72F00D7B022 /* 人工sadgegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01B7B131CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgegTests" */;
+			buildPhases = (
+				C01B7AF81CDAF72F00D7B022 /* Sources */,
+				C01B7AF91CDAF72F00D7B022 /* Frameworks */,
+				C01B7AFA1CDAF72F00D7B022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01B7AFE1CDAF72F00D7B022 /* PBXTargetDependency */,
+			);
+			name = "人工sadgegTests";
+			productName = "人工sadgegTests";
+			productReference = C01B7AFC1CDAF72F00D7B022 /* 人工sadgegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C01B7B061CDAF72F00D7B022 /* 人工sadgegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01B7B161CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgegUITests" */;
+			buildPhases = (
+				C01B7B031CDAF72F00D7B022 /* Sources */,
+				C01B7B041CDAF72F00D7B022 /* Frameworks */,
+				C01B7B051CDAF72F00D7B022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01B7B091CDAF72F00D7B022 /* PBXTargetDependency */,
+			);
+			name = "人工sadgegUITests";
+			productName = "人工sadgegUITests";
+			productReference = C01B7B071CDAF72F00D7B022 /* 人工sadgegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01B7ADD1CDAF72E00D7B022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MuYou INTERACTIVE TECHNOLOGY LIMITED";
+				TargetAttributes = {
+					C01B7AE41CDAF72E00D7B022 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C01B7AFB1CDAF72F00D7B022 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C01B7AE41CDAF72E00D7B022;
+					};
+					C01B7B061CDAF72F00D7B022 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C01B7AE41CDAF72E00D7B022;
+					};
+				};
+			};
+			buildConfigurationList = C01B7AE01CDAF72E00D7B022 /* Build configuration list for PBXProject "人工sadgeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01B7ADC1CDAF72E00D7B022;
+			productRefGroup = C01B7AE61CDAF72E00D7B022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01B7AE41CDAF72E00D7B022 /* 人工sadgeg */,
+				C01B7AFB1CDAF72F00D7B022 /* 人工sadgegTests */,
+				C01B7B061CDAF72F00D7B022 /* 人工sadgegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01B7AE31CDAF72E00D7B022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B7AF61CDAF72E00D7B022 /* LaunchScreen.storyboard in Resources */,
+				C01B7AF31CDAF72E00D7B022 /* Assets.xcassets in Resources */,
+				C01B7AEE1CDAF72E00D7B022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7AFA1CDAF72F00D7B022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7B051CDAF72F00D7B022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01B7AE11CDAF72E00D7B022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B7AEB1CDAF72E00D7B022 /* ViewController.swift in Sources */,
+				C01B7AE91CDAF72E00D7B022 /* AppDelegate.swift in Sources */,
+				C01B7AF11CDAF72E00D7B022 /* __sadgeg.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7AF81CDAF72F00D7B022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B7B011CDAF72F00D7B022 /* __sadgegTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01B7B031CDAF72F00D7B022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01B7B0C1CDAF72F00D7B022 /* __sadgegUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01B7AFE1CDAF72F00D7B022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01B7AE41CDAF72E00D7B022 /* 人工sadgeg */;
+			targetProxy = C01B7AFD1CDAF72F00D7B022 /* PBXContainerItemProxy */;
+		};
+		C01B7B091CDAF72F00D7B022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01B7AE41CDAF72E00D7B022 /* 人工sadgeg */;
+			targetProxy = C01B7B081CDAF72F00D7B022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01B7AEC1CDAF72E00D7B022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01B7AED1CDAF72E00D7B022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01B7AF41CDAF72E00D7B022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01B7AF51CDAF72E00D7B022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01B7B0E1CDAF72F00D7B022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01B7B0F1CDAF72F00D7B022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01B7B111CDAF72F00D7B022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "人工sadgeg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgeg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01B7B121CDAF72F00D7B022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "人工sadgeg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgeg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01B7B141CDAF72F00D7B022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "人工sadgegTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/人工sadgeg.app/人工sadgeg";
+			};
+			name = Debug;
+		};
+		C01B7B151CDAF72F00D7B022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "人工sadgegTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/人工sadgeg.app/人工sadgeg";
+			};
+			name = Release;
+		};
+		C01B7B171CDAF72F00D7B022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "人工sadgegUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "人工sadgeg";
+			};
+			name = Debug;
+		};
+		C01B7B181CDAF72F00D7B022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "人工sadgegUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.3guns.sdk.--sadgegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "人工sadgeg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01B7AE01CDAF72E00D7B022 /* Build configuration list for PBXProject "人工sadgeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B7B0E1CDAF72F00D7B022 /* Debug */,
+				C01B7B0F1CDAF72F00D7B022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01B7B101CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B7B111CDAF72F00D7B022 /* Debug */,
+				C01B7B121CDAF72F00D7B022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01B7B131CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B7B141CDAF72F00D7B022 /* Debug */,
+				C01B7B151CDAF72F00D7B022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C01B7B161CDAF72F00D7B022 /* Build configuration list for PBXNativeTarget "人工sadgegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01B7B171CDAF72F00D7B022 /* Debug */,
+				C01B7B181CDAF72F00D7B022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C01B7AEF1CDAF72E00D7B022 /* __sadgeg.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C01B7AF01CDAF72E00D7B022 /* __sadgeg.xcdatamodel */,
+			);
+			currentVersion = C01B7AF01CDAF72E00D7B022 /* __sadgeg.xcdatamodel */;
+			path = __sadgeg.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C01B7ADD1CDAF72E00D7B022 /* Project object */;
+}
